@@ -43,7 +43,7 @@
             // The workerSrc property shall be specified.
             pdfjsLib.GlobalWorkerOptions.workerSrc = '//mozilla.github.io/pdf.js/build/pdf.worker.js';
             var thePdf = null;
-            var scale = 2;
+            var scale = 1;
             // Asynchronous download of PDF
             pdfjsLib.getDocument(url).promise.then(function(pdf) {
 
